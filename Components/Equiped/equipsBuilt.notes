@@ -1,0 +1,50 @@
+equipHelmetOne={this.equipHelmetOne} equipHelmetTwo={this.equipHelmetTwo} equipHelmetThree={this.equipHelmetThree} equipHelmetFour={this.equipHelmetThree}
+        equipShouldersOne={this.equipShouldersOne} equipShouldersTwo={this.equipShouldersTwo} equipShouldersThree={this.equipShouldersThree} equipShouldersFour={this.equipShouldersFour}
+        equipTorsoOne={this.equipTorsoOne} equipTorsoTwo={this.equipTorsoTwo} equipTorsoThree={this.equipTorsoThree} equipTorsoFour={this.equipTorsoFour}
+        equipCloakOne={this.equipCloakOne} equipCloakTwo={this.equipCloakTwo} equipCloakThree={this.equipCloakThree} equipCloakFour={this.equipCloakFour}
+        equipWristOne={this.equipWristOne} equipWristTwo={this.equipWristTwo} equipWristThree={this.equipWristThree} equipWristFour={this.equipWristFour}
+        equipHandsOne={this.equipHandsOne} equipHandsTwo={this.equipHandsTwo} equipHandsThree={this.equipHandsThree} equipHandsFour={this.equipHandsFour}
+        equipWaistOne={this.equipWaistOne} equipWaistTwo={this.equipWaistTwo} equipWaistThree={this.equipWaistThree} equipWaistFour={this.equipWaistFour}
+        equipLegsOne={this.equipLegsOne} equipLegsTwo={this.equipLegsTwo} equipLegsThree={this.equipLegsThree} equipLegsFour={this.equipLegsFour}
+        equipFeetOne={this.equipFeetOne} equipFeetTwo={this.equipFeetTwo} equipFeetThree={this.equipFeetThree} equipFeetFour={this.equipFeetFour}
+
+        Binds-
+          this.equipShouldersOne = this.equipShouldersOne.bind(this)
+    this.equipShouldersTwo = this.equipShouldersTwo.bind(this)
+    this.equipShouldersThree = this.equipShouldersThree.bind(this)
+    this.equipShouldersFour = this.equipShouldersFour.bind(this)
+    //Torso//
+    this.equipTorsoOne = this.equipTorsoOne.bind(this)
+    this.equipTorsoTwo = this.equipTorsoTwo.bind(this)
+    this.equipTorsoThree = this.equipTorsoThree.bind(this)
+    this.equipTorsoFour = this.equipTorsoFour.bind(this)
+    //Cloak// 
+    this.equipCloakOne = this.equipCloakOne.bind(this)
+    this.equipCloakTwo = this.equipCloakTwo.bind(this)
+    this.equipCloakThree = this.equipCloakThree.bind(this)
+    this.equipCloakFour = this.equipCloakFour.bind(this)
+    //Wrist//
+    this.equipWristOne = this.equipWristOne.bind(this)
+    this.equipWristTwo = this.equipWristTwo.bind(this)
+    this.equipWristThree = this.equipWristThree.bind(this)
+    this.equipWristFour = this.equipWristFour.bind(this)
+    //Hands//
+    this.equipHandsOne = this.equipHandsOne.bind(this)
+    this.equipHandsTwo = this.equipHandsTwo.bind(this)
+    this.equipHandsThree = this.equipHandsThree.bind(this)
+    this.equipHandsFour = this.equipHandsFour.bind(this)
+    //Waist//
+    this.equipWaistOne = this.equipWaistOne.bind(this)
+    this.equipWaistTwo = this.equipWaistTwo.bind(this)
+    this.equipWaistThree = this.equipWaistThree.bind(this)
+    this.equipWaistFour = this.equipWaistFour.bind(this)
+    //Legs//
+    this.equipLegsOne = this.equipLegsOne.bind(this)
+    this.equipLegsTwo = this.equipLegsTwo.bind(this)
+    this.equipLegsThree = this.equipLegsThree.bind(this)
+    this.equipLegsFour = this.equipLegsFour.bind(this)
+    //Feet//
+    this.equipFeetOne = this.equipFeetOne.bind(this)
+    this.equipFeetTwo = this.equipFeetTwo.bind(this)
+    this.equipFeetThree = this.equipFeetThree.bind(this)
+    this.equipFeetFour = this.equipFeetFour.bind(this)

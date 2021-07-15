@@ -1,0 +1,13 @@
+okay so it seems like my main usses are as follows:
+
+    1) i cant figure out how to use state to update the currently equiped section, or the armor rating section.
+    2) i cant figure out how to get the buttons to update state so only one of each item is equiped at a time.
+    3) i need to get the reset character button to reset state.
+
+Problem 1:
+    where is state set? - App.js
+    Where does it need to be set? - inside App.js - Done 
+    What data does state require to do its job? - it needs: a blank slate template for helmet, shoulders, Chest,
+    cloaks, gauntlets, gloves, belts, pants, Shoes - Done
+
+    

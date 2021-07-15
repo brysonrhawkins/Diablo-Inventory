@@ -1,0 +1,38 @@
+import React from 'react';
+import AvailableItems from '../../App';
+
+
+
+
+function CharacterEquiped(){
+    return(
+        <ul>
+            <div class="dropdown">
+  <button class="dropbtn">Currently Equiped</button>
+  <div class="dropdown-content">
+    <a>Helmet: {this.props.helmet}</a>
+    <a >Shoulders: {this.props.shoulders}</a>
+    <a>Chest: {this.props.torso}</a>
+    <a>Cloak: {this.props.cloak}</a>
+    <a>Gauntlets: {this.props.gauntlets}</a>
+    <a>Gloves: {this.props.gloves}</a>
+    <a>Belts: {this.props.belts}</a>
+    <a>Pants: {this.props.pants}</a>
+    <a>Shoes: {this.props.shoes}</a>
+  </div>
+</div>
+        </ul>
+    )
+}
+
+export default CharacterEquiped;
+
+
+<div>
+          <h1>Currently Equiped: {this.props.helmet}</h1>
+          // use the method on the event of the button
+          <button onClick={this.props.equipHelmetOne}>Update Name</button>
+          <button onClick={this.props.resetInventory}>Reset Name</button>
+        </div>
+
+      

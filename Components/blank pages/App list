@@ -1,0 +1,62 @@
+<ul className='ItemsList'>
+            <h1> Available Items: </h1>
+            <div className='ColumnOne'>
+            <h1>Helmets</h1>
+            <li>{helmetOne.name}<button onClick={this.props.equipHelmetOne()}>Equip Item</button></li>
+            <li>{helmetTwo.name}<button>Equip Item</button></li>
+            <li>{helmetThree.name}<button>Equip Item</button></li>
+            <li>{helmetFour.name}<button>Equip Item</button></li>
+            <br />
+            <h1>Shoulders</h1>
+            <li>{shouldersOne.name}<button>Equip Item</button></li>
+            <li>{shouldersTwo.name}<button>Equip Item</button></li>
+            <li>{shouldersThree.name}<button>Equip Item</button></li>
+            <li>{shouldersFour.name}<button>Equip Item</button></li>
+            <br />
+            <h1>Chest Peices</h1>
+            <li>{torsoOne.name}<button>Equip Item</button></li>
+            <li>{torsoTwo.name}<button>Equip Item</button></li>
+            <li>{torsoThree.name}<button>Equip Item</button></li>
+            <li>{torsoFour.name}<button>Equip Item</button></li>
+            </div>
+            <div className='ColumnTwo'>
+            <br />
+            <h1>Cloaks</h1>
+            <li>{cloakOne.name}<button>Equip Item</button></li>
+            <li>{cloakTwo.name}<button>Equip Item</button></li>
+            <li>{cloakThree.name}<button>Equip Item</button></li>
+            <li>{cloakFour.name}<button>Equip Item</button></li>
+            <br />
+            <h1>Gauntlets</h1>
+            <li>{wristOne.name}<button>Equip Item</button></li>
+            <li>{wristTwo.name}<button>Equip Item</button></li>
+            <li>{wristThree.name}<button>Equip Item</button></li>
+            <li>{wristFour.name}<button>Equip Item</button></li>
+            <br />
+            <h1>Gloves</h1>
+            <li>{handsOne.name}<button>Equip Item</button></li>
+            <li>{handsTwo.name}<button>Equip Item</button></li>
+            <li>{handsThree.name}<button>Equip Item</button></li>
+            <li>{handsFour.name}<button>Equip Item</button></li>
+            </div>
+            <div className='ColumnThree'>
+            <br />
+            <h1>Belts</h1>
+            <li>{waistOne.name}<button>Equip Item</button></li>
+            <li>{waistTwo.name}<button>Equip Item</button></li>
+            <li>{waistThree.name}<button>Equip Item</button></li>
+            <li>{waistFour.name}<button>Equip Item</button></li>
+            <br />
+            <h1>Pants</h1>
+            <li>{legsOne.name}<button>Equip Item</button></li>
+            <li>{legsTwo.name}<button>Equip Item</button></li>
+            <li>{legsThree.name}<button>Equip Item</button></li>
+            <li>{legsFour.name}<button>Equip Item</button></li>
+            <br />
+            <h1>Shoes</h1>
+            <li>{feetOne.name}<button>Equip Item</button></li>
+            <li>{feetTwo.name}<button>Equip Item</button></li>
+            <li>{feetThree.name}<button>Equip Item</button></li>
+            <li>{feetFour.name}<button>Equip Item</button></li>
+            </div>
+        </ul>
