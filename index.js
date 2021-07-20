@@ -1,23 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Header from './Components/Header/Header';
-import CharacterEquiped from './Components/Equiped/CharacterEquiped';
-import ArmorRating from './Components/Equiped/ArmorRating';
-import AvailableItems from './App';
-import reportWebVitals from './reportWebVitals';
+const express = require("express");
+const bc = require("./controllers/character_controllers.js");
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Header />
-    <ArmorRating />
-    <CharacterEquiped />
-    <AvailableItems />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const app = express();
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+app.use(express.json());
+app.use(express.static(__dirname + "/../build"));
+
+app.get("/api/diabloCharacters", bc.read);
+app.post("/api/diabloCharacters", bc.create);
+app.put("/api/diabloCharacters/:id", bc.update);
+app.delete("/api/diabloCharacters/:id", bc.delete);
+
+const port = 4000;
+app.listen(port, () => {
+  console.log(`Chillin and grillin on server: ${port}`);
+});
